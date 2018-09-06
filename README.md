@@ -50,7 +50,9 @@ recruiters out of the blue.
 Having an image or screenshot of your projects with a description is a great way
 to showcase your projects.
 
-As your instructors to see what their portfolio sites look like!
+Ask your instructors to see what their portfolio sites look like!
+
+<b>Due Date: Portfolio Review Day (See Calendar, date varies bas on cohort, usually  it is 2 weeks later)</b>
 
 ## [License](LICENSE)
 
