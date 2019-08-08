@@ -12,9 +12,9 @@ looking portfolio site!
 
 Start by reading through the following:
 
-* [Building A Portfolio Site](https://git.generalassemb.ly/ga-wdi-lessons/building-a-portfolio-site)
-* [15 Web Developer Portfolios to Inspire You](https://medium.freecodecamp.org/15-web-developer-portfolios-to-inspire-you-137fb1743cae)
-* [10 Awesome Web Developer Portfolios](https://codeburst.io/10-awesome-web-developer-portfolios-d266b32e6154)
+- [Building A Portfolio Site](https://git.generalassemb.ly/ga-wdi-lessons/building-a-portfolio-site)
+- [15 Web Developer Portfolios to Inspire You](https://medium.freecodecamp.org/15-web-developer-portfolios-to-inspire-you-137fb1743cae)
+- [10 Awesome Web Developer Portfolios](https://codeburst.io/10-awesome-web-developer-portfolios-d266b32e6154)
 
 Once you've finished, go ahead and get started researching, planning and
 building your portfolio site. You are free to build off of the portfolio site
@@ -35,9 +35,27 @@ you started in Week 1 or scrap it and start from scratch!
 
 ## Requirements
 
+- Your HTML should
+  [pass the W3 HTML validator](https://validator.w3.org/#validate_by_input).
+- Your CSS should
+  [pass the W3 CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
+- Your page must be deployed to [Github pages](https://pages.github.com/). This
+  is a free hosting service provided by Github. You should name your repository
+  `your-username.github.io`. The result is that your page will be publicly
+  available at http://your-username.github.io.
+
+You have not been taught how to deploy to Github Pages. That's okay! This is an
+opportunity to practice implementing something new on your own with our support
+if you need it!
+
+Just follow the instructions [here](https://pages.github.com/). If you run into
+any issues, just ask the instructor on lab support.
+
+### Tips for Adding to your Portfolio after this Lab
+
 Your portfolio site can be built with any technology. Plain HTML, CSS and
-JavaScript work great. If you want something a little more advanced, consider
-a static site generator like Jekyll, Hugo, or Gatsby.
+JavaScript work great. If you want something a little more advanced, consider a
+static site generator like Jekyll, Hugo, or Gatsby.
 
 Your portfolio site must be deployed to be considered complete. It also must
 include your first and last name, a link to your GitHub account, a link to
@@ -53,7 +71,8 @@ to showcase your projects.
 
 Ask your instructors to see what their portfolio sites look like!
 
-**Due Date: Portfolio Review Day**
+Your final portfolio is due on Portfolio Review Day, today we're just deploying
+your portfolio so you can add to it throughout the course.
 
 ## [License](LICENSE)
 
