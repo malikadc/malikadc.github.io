@@ -352,6 +352,12 @@
      font-size: 16px;
      margin: 0
  }
+
+ .portfolio-hover img {
+     height: 250px;
+     width: 300px;
+
+ }
  footer span.copyright,
  footer ul.quicklinks {
      font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif
