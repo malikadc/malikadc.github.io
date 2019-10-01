@@ -281,7 +281,7 @@
  section h2.section-heading {
      font-size: 40px;
      margin-top: 0;
-     margin-bottom: 15px
+     margin-bottom: 5px
  }
  section h3.section-subheading {
      font-size: 21px;
@@ -307,16 +307,7 @@
      max-width: 400px;
      margin: 0 auto
  }
- #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-     background: rgba(254, 209, 54, .9);
-     position: absolute;
-     width: 100%;
-     height: 100%;
-     opacity: 0;
-     transition: all ease .5s;
-     -webkit-transition: all ease .5s;
-     -moz-transition: all ease .5s
- }
+
  #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
      opacity: 1
  }
@@ -353,11 +344,7 @@
      margin: 0
  }
 
- .portfolio-hover img {
-     height: 250px;
-     width: 300px;
 
- }
  footer span.copyright,
  footer ul.quicklinks {
      font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif
@@ -554,47 +541,17 @@
  aside.clients img {
      margin: 50px auto
  }
- section#contact {
-     background-color: white;
-     background-image: url(https://www.planwallpaper.com/static/images/blurry-lights-background_YYbqJWo.jpg);
-     background-position: center;
-     background-repeat: no-repeat
- }
- section#contact .section-heading {
-     color: #fff
- }
- section#contact .form-group {
-     margin-bottom: 25px;
-     background-color: #f6bf01;
-     
- }
 
  section#contact .icons-container {
      display: flex;
      justify-content: space-around;
-     padding: 25px;
- }
- section#contact .form-control:focus {
-     border-color: #fed136;
-     box-shadow: none
+     padding: 45px;
+
  }
 
- footer {
-     padding: 25px 0;
-     text-align: center
- }
- footer span.copyright {
-     line-height: 40px;
-     text-transform: uppercase;
-     text-transform: none
- }
- footer ul.quicklinks {
-     margin-bottom: 0;
-     line-height: 40px;
-     text-transform: uppercase;
-     text-transform: none
- }
- ul.social-buttons {
+
+
+ /* ul.social-buttons {
      margin-bottom: 0
  }
  ul.social-buttons li a {
@@ -610,7 +567,7 @@
      -webkit-transition: all .3s;
      -moz-transition: all .3s;
      transition: all .3s
- }
+ } */
  ul.social-buttons li a:active,
  ul.social-buttons li a:focus,
  ul.social-buttons li a:hover {
@@ -706,3 +663,52 @@
  img::-moz-selection {
      background: 0 0
  }
+
+
+
+ /* Flip card CSS */
+ .card-container {
+    cursor: pointer;
+    height: 150px;
+    perspective: 600;
+    position: relative;
+    width: 150px;
+  }
+  .card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 100%;
+    padding: 40px;
+    margin: 25px;
+  }
+  .card:hover {
+    transform: rotateY(180deg);
+  }
+  .card .side {
+    backface-visibility: hidden;
+    height: 160px;
+    position: absolute;
+    overflow: hidden;
+    width: 218px;
+  }
+  .card .back {
+    background: #fed136;
+    color: #434647;
+    line-height: 150px;
+    text-align: center;
+    transform: rotateY(180deg);
+  }
+  .side img{
+      height: 250px;
+  }
+
+.footer__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+
+}
+  
