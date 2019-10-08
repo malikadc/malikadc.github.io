@@ -343,6 +343,14 @@
      font-size: 16px;
      margin: 0
  }
+ .resume a{
+     color: rgb(26, 25, 25);
+     font-weight: bold;
+     font-size: 15px;
+     /* text-decoration: none; */
+     text-align: center;
+     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
 
 
  footer span.copyright,
@@ -528,7 +536,7 @@
  }
  .team-member img {
      margin: 0 auto;
-     border: 7px solid #fff
+     border: 5px solid #fff
  }
  .team-member h4 {
      margin-top: 25px;
@@ -550,24 +558,6 @@
  }
 
 
-
- /* ul.social-buttons {
-     margin-bottom: 0
- }
- ul.social-buttons li a {
-     display: block;
-     background-color: #222;
-     height: 40px;
-     width: 40px;
-     border-radius: 100%;
-     font-size: 20px;
-     line-height: 40px;
-     color: #fff;
-     outline: 0;
-     -webkit-transition: all .3s;
-     -moz-transition: all .3s;
-     transition: all .3s
- } */
  ul.social-buttons li a:active,
  ul.social-buttons li a:focus,
  ul.social-buttons li a:hover {
@@ -663,8 +653,34 @@
  img::-moz-selection {
      background: 0 0
  }
+ .composition {
+     position: relative;
+ }
+
+ .composition__photo--p1 {
+    left: 0;
+    top: -5rem;
+}
+.composition__photo--p2 {
+    left: 0;
+    top: 4rem;
+}
+.composition__photo--p3 {
+    left: 44%;
+    top: -4rem;
+}
 
 
+.composition__photo {
+    width: 50%;
+    box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.4);
+    border-radius: 2px;
+    position: absolute;
+    z-index: 10;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    outline-offset: 2rem;
+}
 
  /* Flip card CSS */
  .card-container {
@@ -703,6 +719,10 @@
   .side img{
       height: 250px;
   }
+
+ .side p {
+    text-align: center;
+ }
 
 .footer__list {
     list-style: none;
