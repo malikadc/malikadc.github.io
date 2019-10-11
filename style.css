@@ -21,7 +21,6 @@
  .btn-xl,
  h1,
  h2,
- h3,
  h4,
  h5,
  h6 {
@@ -682,47 +681,83 @@
     outline-offset: 2rem;
 }
 
- /* Flip card CSS */
- .card-container {
-    cursor: pointer;
-    height: 150px;
-    perspective: 600;
-    position: relative;
-    width: 150px;
-  }
-  .card {
-    height: 100%;
-    position: absolute;
-    transform-style: preserve-3d;
-    transition: all 1s ease-in-out;
-    width: 100%;
-    padding: 40px;
-    margin: 25px;
-  }
-  .card:hover {
-    transform: rotateY(180deg);
-  }
-  .card .side {
-    backface-visibility: hidden;
-    height: 160px;
-    position: absolute;
-    overflow: hidden;
-    width: 218px;
-  }
-  .card .back {
-    background: #fed136;
-    color: #434647;
-    line-height: 150px;
-    text-align: center;
-    transform: rotateY(180deg);
-  }
-  .side img{
-      height: 250px;
-  }
+.flip-container {
+	perspective: 1000px;
+}
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
 
- .side p {
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}
+
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	z-index: 2;
+    transform: rotateY(0deg);
+    border: 2px solid blue;
+    
+}
+
+.back {
+    transform: rotateY(180deg);
+    border: 2px solid blue;
+    background-color: #777;
+}
+
+.vertical.flip-container {
+	position: relative;
+}
+
+.vertical .back {
+    transform: rotateX(180deg);
+}
+
+.vertical.flip-container .flipper {
+    transform-origin: 100% 213.5px; 
+}
+
+.vertical.flip-container:hover .flipper {
+    transform: rotateX(-180deg);
+}
+
+.text {
     text-align: center;
- }
+    color: black;
+}
+
+.example_b {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    }
+.example_b:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    }   
 
 .footer__list {
     list-style: none;
