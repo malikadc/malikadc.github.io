@@ -280,7 +280,6 @@ section h2.section-heading {
     color: rgb(26, 25, 25);
     font-weight: bold;
     font-size: 16px;
-    /* text-decoration: none; */
     text-align: center;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -616,9 +615,6 @@ img::-moz-selection {
     transition: all .2s;
     outline-offset: 2rem;
 }
-img {
-    border-radius: 8px;
-}
 
 .flip-container {
     perspective: 1000px;
@@ -649,8 +645,6 @@ img {
 .front {
     z-index: 2;
     transform: rotateY(0deg);
-    background-color: rgba(173, 169, 169, 0.3);
-    border-radius: 12px;
 
 
 }
@@ -658,7 +652,6 @@ img {
 .back {
     transform: rotateY(180deg);
     background-color: rgba(173, 169, 169, 0.3);
-    border-radius: 12px;
 
 }
 
@@ -678,10 +671,6 @@ img {
     transform: rotateX(-180deg);
 }
 
-.text {
-    text-align: center;
-    color: black;
-}
 
 .example_b {
     color: #fff !important;
@@ -689,7 +678,7 @@ img {
     text-decoration: none;
     text-align: center;
     background: #60a3bc;
-    padding: 20px;
+    padding: 15px;
     border-radius: 50px;
     display: inline-block;
     border: none;
@@ -702,14 +691,59 @@ img {
     transition: all 0.4s ease 0s;
 } 
 
+.project-one {
+    text-align: center;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(77, 77, 75);
+    background-color: white;
+    height: 75%;
+
+    
+}
+.one {
+    background-color: rgb(138, 49, 90, 0.9);
+
+}
+
+.project-two {
+    text-align: center;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(77, 77, 75);
+    background-color: white;
+    height: 75%;
+
+    
+}
+.two {
+    background-color: rgba(28, 92, 89, 0.9);
+    
+}
+
+.project-three {
+    text-align: center;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(77, 77, 75);
+    background-color: white;
+    height: 75%;
+
+    
+}
+.three{
+    background-color: #f3cc40;
+    
+}
+
 
 .form-container {
     max-width: 500px;
     width: 100%;
     margin: 0 auto;
     position: relative;
-  }
-
+}
+hr {
+    width: 55px;
+    color: rgb(46, 41, 41);
+}
 #contact input[type="text"],
 #contact input[type="email"],
 #contact input[type="tel"],
@@ -779,7 +813,7 @@ fieldset {
 
 #contact button[type="submit"] {
     text-align: center;
-    display: block;
+    display: inline-block;
     cursor: pointer;
     width: 70px;
     border: none;
