@@ -678,9 +678,10 @@ img::-moz-selection {
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
-    background: #60a3bc;
+    background: #586063;
     padding: 15px;
-    border-radius: 50px;
+    margin: 100px;
+    border-radius: 30px;
     display: inline-block;
     border: none;
     transition: all 0.4s ease 0s;
@@ -741,6 +742,8 @@ img::-moz-selection {
     margin: 0 auto;
     position: relative;
 }
+
+
 hr {
     width: 55px;
     color: rgb(46, 41, 41);
