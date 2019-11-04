@@ -621,7 +621,7 @@ img::-moz-selection {
     perspective: 1000px;
     text-align: center;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: rgb(53, 53, 51);
+    color: rgb(77, 77, 75);
     /* height: 80%; */
 }
 .flip-container:hover .flipper, .flip-container.hover .flipper {
@@ -643,8 +643,8 @@ img::-moz-selection {
 .front, .back {
     backface-visibility: hidden;
     position: absolute;
-    padding: 5px;
-    margin: 10px;
+    top: 0;
+    left: 0;
     width: 270px;
 }
 
@@ -679,19 +679,19 @@ img::-moz-selection {
 }
 
 
-.project_b {
+.example_b {
     color: #fff !important;
     text-decoration: none;
     text-align: center;
-    background: #6c777a;
-    padding: 15px;
-    margin: 25px;
-    border-radius: 25px;
+    background: #586063;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
     display: inline-block;
     border: none;
     transition: all 0.4s ease 0s;
 }
-.project_b:hover {
+.example_b:hover {
     text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
@@ -718,18 +718,6 @@ img::-moz-selection {
     background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
     
 }
-/* @media (min-width: 768px) {
-    .flip-container {
-        padding: 110px 0
-    }
-    .flip-container, .front, .back {
-        width: 320px;
-        height: 480px;
-        
-    }
-    
-
-} */
 
 .form-container {
     max-width: 500px;
