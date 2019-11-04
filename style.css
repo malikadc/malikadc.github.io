@@ -619,6 +619,10 @@ img::-moz-selection {
 
 .flip-container {
     perspective: 1000px;
+    text-align: center;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(53, 53, 51);
+    /* height: 80%; */
 }
 .flip-container:hover .flipper, .flip-container.hover .flipper {
     transform: rotateY(180deg);
@@ -639,13 +643,15 @@ img::-moz-selection {
 .front, .back {
     backface-visibility: hidden;
     position: absolute;
-    top: 0;
-    left: 0;
+    padding: 5px;
+    margin: 10px;
+    width: 270px;
 }
 
 .front {
     z-index: 2;
     transform: rotateY(0deg);
+    background-color: white;
 
 
 }
@@ -675,13 +681,12 @@ img::-moz-selection {
 
 .example_b {
     color: #fff !important;
-    text-transform: uppercase;
     text-decoration: none;
     text-align: center;
-    background: #586063;
+    background: #6c777a;
     padding: 15px;
-    margin: 100px;
-    border-radius: 30px;
+    margin: 25px;
+    border-radius: 25px;
     display: inline-block;
     border: none;
     transition: all 0.4s ease 0s;
@@ -693,48 +698,26 @@ img::-moz-selection {
     transition: all 0.4s ease 0s;
 } 
 
-.project-one {
-    text-align: center;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: rgb(77, 77, 75);
-    background-color: white;
-    height: 75%;
-
-    
-}
 .one {
-    background-color: rgb(138, 49, 90, 0.9);
+    background: linear-gradient(to left, rgb(73, 7, 82) 0%, rgb(165, 104, 184) 100%);
 
 }
 
-.project-two {
-    text-align: center;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: rgb(77, 77, 75);
-    background-color: white;
-    height: 75%;
 
-    
-}
 .two {
-    background-color: rgba(28, 92, 89, 0.9);
+    background: linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%); /* w3c */
     
 }
 
-.project-three {
-    text-align: center;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: rgb(77, 77, 75);
-    background-color: white;
-    height: 75%;
 
-    
-}
 .three{
-    background-color: #f3cc40;
+    background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
     
 }
-
+.four{
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    
+}
 
 .form-container {
     max-width: 500px;
