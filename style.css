@@ -594,15 +594,15 @@ img::-moz-selection {
 
 .composition__photo--p1 {
     left: 0;
-    top: -5rem;
+    top: 7rem;
 }
 .composition__photo--p2 {
     left: 0;
-    top: 4rem;
+    top: 16rem;
 }
 .composition__photo--p3 {
     left: 44%;
-    top: -4rem;
+    top: 8rem;
 }
 
 
